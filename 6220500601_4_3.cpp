@@ -3,14 +3,14 @@
 
 int main()
 {
-    int i,z;
+    int i,m;
     char a[200];
 
  	scanf("%s",a);
-	z=strlen(a);
+	m=strlen(a);
 
 
-    for ( i = 0; i < z; i++)
+    for (i=0;i<m;i++)
     {
        if (a[i]==a[i+1])
        {
